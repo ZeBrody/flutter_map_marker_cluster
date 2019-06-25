@@ -20,7 +20,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  flutter_map: ^0.6.0+2
+  flutter_map:
+    git:
+      url: git://github.com/ZeBrody/flutter_map.git
+      ref: dev
   flutter_map_marker_cluster:
     path: ../
 
